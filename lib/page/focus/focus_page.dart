@@ -14,7 +14,7 @@ class _FocusPageState extends State<FocusPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("关注"),backgroundColor: ColorUtil.color_5BBBD6,) ,
+      appBar: AppBar(title: Text("关注"),backgroundColor: ColorUtil.color_5BBBD6,elevation: 0,) ,
     );
   }
 }

@@ -13,7 +13,7 @@ class _MinePageState extends State<MinePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("我的"),backgroundColor: ColorUtil.color_5BBBD6,) ,
+      appBar: AppBar(title: Text("我的"),backgroundColor: ColorUtil.color_5BBBD6,elevation: 0,) ,
     );
   }
 }

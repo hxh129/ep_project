@@ -13,7 +13,7 @@ class _NoticePageState extends State<NoticePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("公告"),backgroundColor: ColorUtil.color_5BBBD6,) ,
+      appBar: AppBar(title: Text("公告"),backgroundColor: ColorUtil.color_5BBBD6,elevation: 0,) ,
     );
   }
 }
