@@ -14,6 +14,22 @@ class _MinePageState extends State<MinePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("我的"),backgroundColor: ColorUtil.color_5BBBD6,elevation: 0,) ,
+      body: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(height: 100,color: ColorUtil.color_2B8BA6,
+              margin: EdgeInsets.all(10),),
+              Container(height: 100,color: ColorUtil.color_2B8BA6,
+                margin: EdgeInsets.all(10),), Container(height: 100,color: ColorUtil.color_2B8BA6,
+                margin: EdgeInsets.all(10),), Container(height: 100,color: ColorUtil.color_2B8BA6,
+                margin: EdgeInsets.all(10),), Container(height: 100,color: ColorUtil.color_2B8BA6,
+                margin: EdgeInsets.all(10),), Container(height: 100,color: ColorUtil.color_2B8BA6,
+                margin: EdgeInsets.all(10),),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

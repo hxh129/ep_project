@@ -7,4 +7,5 @@ import 'package:flutter/cupertino.dart';
   static final color_2B8BA6 = Color(0xFF2B8BA6);
   static final color_5BBBD6 = Color(0xFF5BBBD6);
   static final color_666666 = Color(0xFF666666);
+  static final background = Color(0xFFF4F4F4);
 }
